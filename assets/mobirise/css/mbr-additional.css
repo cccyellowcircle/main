@@ -1337,10 +1337,33 @@ body {
   height: auto;
   min-height: 100vh;
 }
+.cid-rKlG51jXbH {
+  background: #f5de09;
+}
+.cid-rKlG51jXbH .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-rKlG51jXbH .mbr-figure {
+  margin: 0 auto;
+}
+.cid-rKlG51jXbH figcaption {
+  position: relative;
+}
+.cid-rKlG51jXbH figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rKlG51jXbH .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rKluawxZDO {
-  padding-top: 90px;
+  padding-top: 0px;
   padding-bottom: 90px;
-  background-color: #ffe050;
+  background-image: url("../../../assets/images/whatsapp-image-2019-12-11-at-8.51.01-pm-271x252.jpg");
 }
 .cid-rKluawxZDO .mbr-section-subtitle {
   color: #767676;
