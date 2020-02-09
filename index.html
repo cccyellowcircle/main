@@ -299,6 +299,23 @@
   <script src="assets/data-tables/data-tables.bootstrap4.min.js"></script>
   <script src="assets/jarallax/jarallax.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+  <script type='text/javascript'>    
+    var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQObnM0W7hJaev4x0ryNVXkNonuOkHuwimwbg_UaC79jXwkdyjhMCY_TeZUJ6LYUD59EVOrfO_nwm_K/pubhtml';
+
+    function init() {
+      Tabletop.init( { key: publicSpreadsheetUrl,
+                       callback: showInfo,
+                       simpleSheet: true } )
+    }
+
+    function showInfo(data, tabletop) {
+      alert('Successfully processed!')
+      console.log(data);
+    }
+
+    window.addEventListener('DOMContentLoaded', init)
+  </script>
   
   
 </body>
