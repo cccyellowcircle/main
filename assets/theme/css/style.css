@@ -574,5 +574,8 @@ table th{
   }
   td:nth-child(2) {  
   max-width: 50px!important;
-}
+  }
+  .social-link {
+    padding-right: 0.2em;
+  }
   }
