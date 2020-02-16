@@ -434,6 +434,10 @@ nav .mbr-section-btn {
   margin-bottom: 1.07em;
 }
 
+.body-item-hidden{
+  display: none;
+}
+
 .table-filters input{
   border: 1px solid #e8e8e8;
   display: inline;

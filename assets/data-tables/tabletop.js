@@ -14,6 +14,9 @@ function showInfo(data, tabletop) {
       '<td class="body-item">' +
         data[i].chiname + 
       '</td>' + 
+      '<td class="body-item-hidden">' +
+        data[i].engname + 
+      '</td>' + 
       '<td class="body-item">' + data[i].category + '</td>' + 
       '<td class="body-item">';
     if("" != data[i].fblink) {
@@ -27,8 +30,8 @@ function showInfo(data, tabletop) {
     }
     text += '</td>';
     
-    if("" != data[i].weblink) {
-      text += '<td class="body-item">' + '<a href="' + data[i].weblink + '">了解更多</a></td>';
+    if("" != data[i].reasonlink) {
+      text += '<td class="body-item">' + '<a href="' + data[i].reasonlink + '">了解更多</a></td>';
     } else {
       text += '<td class="body-item">No Link</td>';
     }
