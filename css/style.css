@@ -773,13 +773,13 @@ table th{
 }
 
 td:first-child, .table-heads th:first-child{  
-  width: 50%;
+  width: 60%;
   white-space: pre-wrap;
   }
-  td:nth-child(2), .table-heads th:nth-child(2){  
+  td:nth-child(3), .table-heads th:nth-child(3){  
   min-width: 20%!important;
   }
-  td:nth-child(3), .table-heads th:nth-child(3){  
+  td:nth-child(4), .table-heads th:nth-child(4){  
   min-width: 20%!important;
 }
 
@@ -811,16 +811,16 @@ td:first-child, .table-heads th:first-child{
     font-size: .8em;
   }
   td:first-child, .table-heads th:first-child{  
-  width: 50%;
+  width: 60%;
   white-space: pre-wrap;
   }
   th{
     padding: 10px;
   }
-  td:nth-child(2), .table-heads th:nth-child(2){  
+  td:nth-child(3), .table-heads th:nth-child(3){  
   min-width: 20%!important;
   }
-  td:nth-child(3), .table-heads th:nth-child(3){  
+  td:nth-child(4), .table-heads th:nth-child(4){  
   min-width: 20%!important;
   }
   .social-link {
@@ -852,7 +852,7 @@ td:first-child, .table-heads th:first-child{
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  right: 20px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
