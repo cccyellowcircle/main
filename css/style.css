@@ -151,7 +151,7 @@ img {
   max-width: 100%!important;
 }
 
-.brand-container {
+.banner-container {
   margin-right: auto;
   margin-left: auto;
   padding: 50px 0;
@@ -558,7 +558,7 @@ img {
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
   }
-  .contact-container {
+  .contact-container,.banner-container {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -640,7 +640,7 @@ img {
     padding-right: 20px;
     padding-left: 20px;
   }
-  .contact-container {
+  .contact-container,.banner-container {
     padding-right: 5%;
     padding-left: 5%;
   }
