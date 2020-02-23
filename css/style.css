@@ -486,10 +486,6 @@ img {
   opacity: 1;
 }
 
-.back-to-top-arrow {
-  text-align: center;
-}
-
 @media screen and (max-width: 991px) {
   .nav {
     padding: 10px 30px;
@@ -662,6 +658,7 @@ img {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    margin: 30px 0;
   }
   .btn {
     font-size: 14px;
