@@ -487,9 +487,6 @@ img {
 }
 
 .back-to-top-arrow {
-  color: #000;
-  font-size: 25px;
-  line-height: 10px;
   text-align: center;
 }
 
@@ -863,11 +860,10 @@ td:first-child, .table-heads th:first-child{
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: #fff; /* Set a background color */
-  color: white; /* Text color */
+  color: #000; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-  border-radius: 100px;
+  border-radius: 100px; /* Rounded corners */
+  font-size: 25px; /* Increase font size */
   opacity: 0.44;
   text-decoration: none;
   width: 40px;
