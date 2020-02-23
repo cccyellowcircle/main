@@ -863,7 +863,7 @@ td:first-child, .table-heads th:first-child{
   font-size: 25px; /* Increase font size */
   opacity: 0.44;
   text-decoration: none;
-  padding: 40px;
+  padding: 5px 12px;
   text-align: center;
 }
 
