@@ -1,6 +1,6 @@
 /*tabletop.js* plugin Start*/
 
-var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1fll7twNbeoXECg8IqWPg7iisxN9-8qNaLi5JYp9lRIo/pubhtml';
+var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1L6s0ZT079sjX6UaH3N3dpxN_odMY9JOh9zGigI-D7mE/pubhtml';
 
   function init() {
     Tabletop.init( { key: publicSpreadsheetUrl,
