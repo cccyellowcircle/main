@@ -219,21 +219,8 @@ img {
   align-items: center;
 }
 
-.banner:before {
+body:before {
   content: "";
-    display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100vh;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
   display: block;
   position: fixed;
   left: 0;
@@ -634,8 +621,8 @@ img {
     padding-bottom: 15px;
   }
   .contact-section {
-    margin-right: 15px;
-    margin-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .contact-link {
     margin-right: 10px;
