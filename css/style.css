@@ -217,14 +217,35 @@ img {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url(../images/bg.jpg);
-  background-position: 0px 0px, 50% 50%;
+}
+
+.banner:before {
+  content: "";
+    display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(../images/bg.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .p5 {
@@ -291,6 +312,7 @@ img {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #fad836;
 }
 
 .join {
@@ -388,6 +410,7 @@ img {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #fad836;
 }
 
 .contact-wrap {
@@ -423,6 +446,7 @@ img {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #fad836;
 }
 
 .footer-link {
