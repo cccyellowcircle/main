@@ -725,6 +725,11 @@ img {
   display: none;
 }
 
+#filter-tick{
+  margin-right: 5px;
+  width: 15px;
+}
+
 .table-filters input{
   border: 1px solid #e8e8e8;
   display: inline;
@@ -736,7 +741,6 @@ img {
   font-family: 'Rubik', sans-serif;
   font-size: 1rem;
   line-height: 1.43;
-  min-height: 3.5em;
   padding: 1.07em 1em;
 }
 .table-filters input:focus {
@@ -745,12 +749,17 @@ img {
   outline: 0;
 }
 
-.category-filter-wrap{
-  text-align: right;
-}
-
 .brand-filter-wrap{
   text-align: left;
+}
+
+.category-filter-wrap{
+  text-align: left;
+}
+
+.workshop-filter-wrap{
+  text-align: left;
+  width: 100px;
 }
 
 #mylist{
@@ -811,14 +820,31 @@ table th{
 }
 
 td:first-child, .table-heads th:first-child{  
-  width: 60%;
+  width: 50%;
   white-space: pre-wrap;
+  text-align: left; 
   }
-  td:nth-child(3), .table-heads th:nth-child(3){  
-  min-width: 20%!important;
+  
+.table-heads th:nth-child(2){  
+  width: 20%;
   }
-  td:nth-child(4), .table-heads th:nth-child(4){  
-  min-width: 20%!important;
+
+.table-heads th:nth-child(3){  
+  width: 15%;
+}
+
+.table-heads th:nth-child(4){  
+  width: 15%;
+}
+
+td:nth-child(3){  
+  width: 20%;
+}
+td:nth-child(4){  
+  width: 15%;
+}
+td:nth-child(5){  
+  width: 15%;
 }
 
 .social-link{
@@ -837,29 +863,50 @@ td:first-child, .table-heads th:first-child{
 
 @media (max-width: 767px) {
   .table-filters input {
-    width: 9.05em;
-    min-height: 2.5em;
-    padding: .5em 1em;
+    width: 6.05em;
+    padding: 0.2em 0.5em;
+  }
+
+  #filter-category{
+    max-width:70px;
   }
   .table-filters{
     align-items: flex-start;
+    font-size: .8em;
+    line-height: 1.5em;
+  }
+
+  .body-item{
+    padding: 0px 5px;
   }
 
   table{
     font-size: .8em;
   }
   td:first-child, .table-heads th:first-child{  
-  width: 60%;
-  white-space: pre-wrap;
+  width: 30%;
+  word-break: break-word;
   }
   th{
-    padding: 10px;
+    padding: 0px 5px;
   }
-  td:nth-child(3), .table-heads th:nth-child(3){  
-  min-width: 20%!important;
+  .table-heads th:nth-child(2){  
+  width: 30%;
   }
-  td:nth-child(4), .table-heads th:nth-child(4){  
-  min-width: 20%!important;
+  .table-heads th:nth-child(3){  
+  width: 15%;
+  }
+  .table-heads th:nth-child(4){  
+  width: 15%;
+  }
+  td:nth-child(3){  
+  width: 30%;
+  }
+  td:nth-child(4){  
+  width: 15%;
+  }
+  td:nth-child(5){  
+  width: 15%;
   }
   .social-link {
     padding-right: 0.2em;
