@@ -1,4 +1,4 @@
-/*tabletop.js* plugin Start*/
+/*Papaparse.js* plugin Start*/
 var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRmf1067WQtHrRU0G78U4ej4C7rI8UMmx4UzDxJfT-sBQs66hkIJZ6Fl7K583fmDlfhvhzV_ZYAH54R/pub?output=csv';
 
 function init() {
