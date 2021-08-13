@@ -1,15 +1,19 @@
 /*tabletop.js* plugin Start*/
+var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRmf1067WQtHrRU0G78U4ej4C7rI8UMmx4UzDxJfT-sBQs66hkIJZ6Fl7K583fmDlfhvhzV_ZYAH54R/pub?output=csv';
 
-var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1L6s0ZT079sjX6UaH3N3dpxN_odMY9JOh9zGigI-D7mE/pubhtml';
+function init() {
+      Papa.parse(publicSpreadsheetUrl, {
+        download: true,
+        header: true,
+        complete: showInfo
+      })
+    }
 
-  function init() {
-    Tabletop.init( { key: publicSpreadsheetUrl,
-                     callback: showInfo,
-                     simpleSheet: true } )
-  }
 
-function showInfo(data, tabletop) {
+
+function showInfo(results) {
   /*console.log(data);*/
+  var data = results.data
   for (var i = 0; i < data.length; i++) {
     var text =
       '<tr>' + 
